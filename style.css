@@ -54,6 +54,7 @@ padding: 7;
 	grid-template-columns:20% 1fr 20%;
 	grid-gap: 5px;
 	padding: 7px;
+	background-color: green;
 	grid-template-areas: "apple apple  apple"
 					"facebook microsoft samsung"
 					"google google google";
