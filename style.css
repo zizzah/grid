@@ -3,7 +3,8 @@
 	background-color: blue;
 	display: grid;
 	height: 100vh;
-
+padding: 7;
+	grid-gap: 5px;
 		grid-template-areas:
 								 "apple"
 								 "facebook"
