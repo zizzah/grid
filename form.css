@@ -1,19 +1,22 @@
 form{
     font-size: 20px;
     padding: 20px;
+    display: grid;
     background-color:lightgoldenrodyellow;
     grid-gap: 5px;
-    grid-template-columns: auto 1fr;
-   display: grid;
+    grid-template-columns:  auto 1fr;
+  
 }
 
 form > label{
     background-color:yellowgreen;
     border-radius: 10px;
+    grid-column: label;
 }
 
 form > input{
     font-size: 1em;
+    grid-column: input;
     border-radius: 10px;
 }
 
@@ -25,7 +28,7 @@ form > input{
         padding: 20px;
         background-color:lightgoldenrodyellow;
         grid-gap: 5px;
-        grid-template-columns: auto 1fr;
+        grid-template-columns: [label] auto [input] 1fr;
        display: grid;
 
 	}
@@ -34,5 +37,17 @@ form > label{
     background-color:yellowgreen;
     padding: 7px;
     border-radius: 10px;
+    grid-column: label;
+}
+
+
+form > input{
+    font-size: 1em;
+    grid-column: input;
+    border-radius: 10px;
+}
+#sub{
+    background-color: cornsilk;
+    grid-column: span 2;
 }
 }
