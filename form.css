@@ -1,0 +1,13 @@
+form{
+    font-size: 20px;
+    padding: 20px;
+    background-color:lightgoldenrodyellow;
+}
+
+form > label{
+    background-color:yellowgreen;
+}
+
+form > input{
+    font-size: 1em;
+}
