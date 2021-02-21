@@ -9,11 +9,30 @@ form{
 
 form > label{
     background-color:yellowgreen;
-    padding: 7px;
     border-radius: 10px;
 }
 
 form > input{
     font-size: 1em;
     border-radius: 10px;
+}
+
+
+
+@media all and (min-width: 770px){
+	form{
+        font-size: 20px;
+        padding: 20px;
+        background-color:lightgoldenrodyellow;
+        grid-gap: 5px;
+        grid-template-columns: auto 1fr;
+       display: grid;
+
+	}
+    
+form > label{
+    background-color:yellowgreen;
+    padding: 7px;
+    border-radius: 10px;
+}
 }
