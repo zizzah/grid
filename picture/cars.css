@@ -1,19 +1,29 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: #262626;
+}
+
+.header{
+    background: linear-gradient(to right, #F9701Af0 0%,#AD032F, #348E95 100%);}
+
 h1{
     text-align: center;
-    font-size: large;
+    font-size: 30px;
+    color:whitesmoke;
 }
 .container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px , 1fr));
-    background-color:yellowgreen;
     justify-content: center;
     
 }
 .container > img{
     max-width: 305px;
+    margin-top: 10px;
+    color:whitesmoke;
+    padding: 10px;
     border: 1px solid gray;
     height: 200px;
   
