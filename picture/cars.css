@@ -20,13 +20,17 @@ h1{
     
 }
 .container > img{
-    max-width: 305px;
+    max-width: 310px;
     margin-top: 10px;
     color:whitesmoke;
     padding: 10px;
-    border: 1px solid gray;
+    border: 3px solid gray;
     height: 200px;
+    box-shadow: 2px solid #348E95;
   
+}
+img:hover{
+    box-shadow: #AD032F;
 }
 
 
