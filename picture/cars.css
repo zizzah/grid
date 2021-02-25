@@ -19,8 +19,21 @@ h1{
     justify-content: center;
     
 }
-.container > img{
-    max-width: 310px;
+.container> a{
+margin: 20px;
+padding: 20px;
+color:whitesmoke;
+text-decoration: none;
+font-size: 20px;
+}
+a:hover{
+    box-shadow: 10px 10px 10px 10px rgba(20, 142, 190, 0.75);
+    width: 400px;
+    padding: 15px;
+    margin: 15px;
+}
+ img{
+    width: 310px;
     margin-top: 10px;
     color:whitesmoke;
     padding: 10px;
@@ -31,7 +44,8 @@ h1{
   
 }
 img:hover{
-    box-shadow: #AD032F;
+    width: 350px;
+ 
 }
 
 
@@ -42,6 +56,9 @@ img:hover{
         margin: auto;
         padding: 5px;
         margin-top: 10px;
+    }
+    a{
+        margin: auto;
     }
     .container{
    
